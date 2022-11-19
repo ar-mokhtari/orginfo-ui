@@ -39,7 +39,7 @@ export default function Root() {
               id="q"
               className={searching ? "loading" : ""}
               aria-label="Search contacts"
-              placeholder="Search"
+              placeholder="جستجو"
               type="search"
               name="q"
               defaultValue={q}
@@ -54,7 +54,7 @@ export default function Root() {
             <div className="sr-only" aria-live="polite"></div>
           </Form>
           <Form method="post">
-            <button type="submit">New</button>
+            <button type="submit">جدید</button>
           </Form>
         </div>
         <nav>

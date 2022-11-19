@@ -21,15 +21,6 @@ export async function action({ request, params }) {
 export default function Contact() {
   const contact = useLoaderData();
 
-  // const contact = {
-  //   first: "Your",
-  //   last: "Name",
-  //   avatar: "https://placekitten.com/g/200/200",
-  //   twitter: "your_handle",
-  //   notes: "Some notes",
-  //   favorite: true,
-  // };
-
   return (
     <div id="contact">
       <div>
@@ -66,7 +57,7 @@ export default function Contact() {
 
         <div>
           <Form action="edit">
-            <button type="submit">Edit</button>
+            <button type="submit">ویرایش</button>
           </Form>
           <Form
             method="post"
@@ -81,7 +72,7 @@ export default function Contact() {
               }
             }}
           >
-            <button type="submit">Delete</button>
+            <button type="submit">حذف</button>
           </Form>
         </div>
       </div>
